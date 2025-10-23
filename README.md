@@ -100,6 +100,8 @@ jobs	Create/update/select within same org	Only same org’s recruiters can manag
 candidates	Create/update/select within same org	Protects candidate data by organization
 cv_storage	Create/select via candidate’s org	Ensures CVs belong to candidate’s org
 cv_matches	Create/select via job’s org	Restricts match results per organization
+
+
 🧰 Setup Instructions (Supabase)
 
 Open your Supabase SQL Editor
@@ -119,6 +121,7 @@ seed/seed_data.sql
 After successful execution, you should see:
 
 Success. No rows returned.
+
 
 🧩 Testing Guidelines
 
